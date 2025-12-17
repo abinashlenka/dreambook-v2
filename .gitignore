@@ -1,0 +1,19 @@
+.DS_Store
+# Environment files
+.env
+.env.*
+*.env
+
+# Firebase / Google credentials
+firebase-service-account.json
+*service-account*.json
+
+# Backend secrets
+dreamBook-backend-main/src/config/firebase-service-account.json
+dreamBook-backend-main/env backend.txt
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
